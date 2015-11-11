@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/index.html">
 <meta property="og:site_name" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
 <meta property="og:description" content="最近在工作中遇到的问题，困扰了很长时间。">
-<meta property="og:updated_time" content="2015-11-11T22:19:51.211Z">
+<meta property="og:updated_time" content="2015-11-11T22:26:13.018Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="解决java.net.MalformedURLException_unknown protocol_c问题">
 <meta name="twitter:description" content="最近在工作中遇到的问题，困扰了很长时间。">
@@ -175,24 +175,24 @@
 <hr>
 <ul>
 <li><p>修改前代码：</p>
-<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
-<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
-<p>  3 Document document = builder.parse(xmlPath);  \直接将路径名给builder.</p>
+<p>  DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  Document document = builder.parse(xmlPath);  \直接将路径名给builder.</p>
 </li>
 </ul>
 <hr>
 <ul>
 <li><p>修改后代码：</p>
-<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
-<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
-<p>  3 Document document = builder.parse(“file:///“ + xmlPath);</p>
+<p>  DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  Document document = builder.parse(“file:///“ + xmlPath);</p>
 </li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/" data-id="cigvddufw000m3csc8rths9i0" class="article-share-link">Share</a>
+      <a data-url="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/" data-id="cigvdm1b8000m9csctg147k00" class="article-share-link">Share</a>
       
         <a href="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/#disqus_thread" class="article-comment-link">Comments</a>
       
