@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Chen, Kobe's Personal Blog -- chearty.xyz]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chearty.xyz/"/>
-  <updated>2015-11-11T22:01:48.491Z</updated>
+  <updated>2015-11-11T22:19:51.211Z</updated>
   <id>http://chearty.xyz/</id>
   
   <author>
@@ -13,6 +13,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[解决java.net.MalformedURLException_unknown protocol_c问题]]></title>
+    <link href="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/"/>
+    <id>http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/</id>
+    <published>2015-11-11T22:07:10.000Z</published>
+    <updated>2015-11-11T22:19:51.211Z</updated>
+    <content type="html"><![CDATA[<p>最近在工作中遇到的问题，困扰了很长时间。</p>
+<a id="more"></a>
+<hr>
+<ul>
+<li><p>修改前代码：</p>
+<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  3 Document document = builder.parse(xmlPath);  \直接将路径名给builder.</p>
+</li>
+</ul>
+<hr>
+<ul>
+<li><p>修改后代码：</p>
+<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  3 Document document = builder.parse(“file:///“ + xmlPath);</p>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近在工作中遇到的问题，困扰了很长时间。</p>]]>
+    
+    </summary>
+    
+      <category term="Exception" scheme="http://chearty.xyz/tags/Exception/"/>
+    
+      <category term="Java" scheme="http://chearty.xyz/tags/Java/"/>
+    
+      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[向阳花开 -- 当时只道是寻常]]></title>

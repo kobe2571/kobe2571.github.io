@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tags | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
+  <title>解决java.net.MalformedURLException_unknown protocol_c问题 | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="New life, New Starter !">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="http://chearty.xyz/tags/index.html">
+  <meta name="description" content="最近在工作中遇到的问题，困扰了很长时间。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决java.net.MalformedURLException_unknown protocol_c问题">
+<meta property="og:url" content="http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/index.html">
 <meta property="og:site_name" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
-<meta property="og:description" content="New life, New Starter !">
-<meta property="og:updated_time" content="2015-11-08T09:35:43.024Z">
+<meta property="og:description" content="最近在工作中遇到的问题，困扰了很长时间。">
+<meta property="og:updated_time" content="2015-11-11T22:19:51.211Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="New life, New Starter !">
+<meta name="twitter:title" content="解决java.net.MalformedURLException_unknown protocol_c问题">
+<meta name="twitter:description" content="最近在工作中遇到的问题，困扰了很长时间。">
   
     <link rel="alternative" href="/atom.xml" title="C-HE-A-RT-Y Personal Blog | Chen, Kobe" type="application/atom+xml">
   
@@ -127,16 +127,104 @@
 </aside>
 
       
-      <section id="main"><section class="layout-wrap">
-  <div class="layout-title">
-    <span>Tags</span>
-  </div>
-  <div class="layout-wrap-inner tag-cloud">
+      <section id="main"><article id="post-Java-Net-Malform-URLException" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-      <a href="/tags/Exception/" style="font-size: 14px;">Exception</a> <a href="/tags/Java/" style="font-size: 14px;">Java</a> <a href="/tags/心情/" style="font-size: 28px;">心情</a> <a href="/tags/闲杂/" style="font-size: 28px;">闲杂</a>
+      
+	
+		<img src="http://chearty.xyz/images/JavaNetURLException.jpg" class="article-banner">
+	
+
+
+
     
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      解决java.net.MalformedURLException_unknown protocol_c问题
+    </h1>
+  
+
+        <div class="article-meta">
+          
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/articles/2015/11/12/Java-Net-Malform-URLException/">
+      <time datetime="2015-11-11T22:07:10.000Z" itemprop="datePublished">2015-11-12</time>
+    </a>
   </div>
-</section></section>
+
+
+          
+  <div class="article-category">
+  	<i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/日常积累/">日常积累</a>
+  </div>
+
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+                
+        <p>最近在工作中遇到的问题，困扰了很长时间。</p>
+<a id="more"></a>
+<hr>
+<ul>
+<li><p>修改前代码：</p>
+<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  3 Document document = builder.parse(xmlPath);  \直接将路径名给builder.</p>
+</li>
+</ul>
+<hr>
+<ul>
+<li><p>修改后代码：</p>
+<p>  1 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();</p>
+<p>  2 DocumentBuilder builder = factory.newDocumentBuilder();</p>
+<p>  3 Document document = builder.parse(“file:///“ + xmlPath);</p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/" data-id="cigvddufw000m3csc8rths9i0" class="article-share-link">Share</a>
+      
+        <a href="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Exception/">Exception</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/articles/2015/11/12/XiangYangHuaKai/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">向阳花开 -- 当时只道是寻常</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
       
         <aside id="sidebar">
   
