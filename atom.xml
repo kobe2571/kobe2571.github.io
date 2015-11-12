@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Chen, Kobe's Personal Blog -- chearty.xyz]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chearty.xyz/"/>
-  <updated>2015-11-12T22:19:02.724Z</updated>
+  <updated>2015-11-12T22:41:06.331Z</updated>
   <id>http://chearty.xyz/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/"/>
     <id>http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/</id>
     <published>2015-11-12T21:58:37.000Z</published>
-    <updated>2015-11-12T22:19:02.724Z</updated>
+    <updated>2015-11-12T22:41:06.331Z</updated>
     <content type="html"><![CDATA[<p>正如大家所知道的，当基于<strong>Hexo</strong>建站时，很多时候我们需要在部署文件的时候使用原始文件，但是在 <strong><code>hexo g</code></strong> 的命令之后，所有的 <strong>.md</strong> 或者 <strong>html</strong> 文件都会被 <strong>hexo</strong> 所渲染。这也就是所谓的，在 <strong>source</strong>文件夹 下的所有 <strong>md</strong>文件 都会被 <strong>hexo</strong> 渲染成  <strong>html</strong>文件，导致 <strong>.md</strong>文件 不能好好的放在里面了，即使是添加了 <strong><code>layout: false</code></strong> 依然没有用。</p>
 <a id="more"></a>
 <p>不过现在有相应的解决办法：</p>
@@ -28,12 +28,12 @@
 <h4 id="2-_Hexo3-0以上版本">2. Hexo3.0以上版本</h4><p>使用 <strong>_config.yml</strong> 下的 <strong>skip_render</strong> 参数</p>
 <p><strong>skip_render</strong> 使用了 <strong>minimatch</strong>，开始匹配的位置是基于你的 <strong>source_dir</strong> 的，一般来说，是你的 <strong>source</strong> 文件夹下。</p>
 <p>下面我分别列举几种常见的情况进行说明：</p>
-<p><em>请注意yml中的文件格式，输入单个数据请注意空格，输入数组请进行缩进！</em></p>
+<p><em>请注意 <strong>.yml</strong> 中的文件格式，输入单个数据请注意空格，输入数组请进行缩进！</em></p>
 <ul>
 <li>单个文件夹下全部文件：<strong>skip_render: test/*</strong></li>
 <li>单个文件夹下指定类型文件：<strong>skip_render: test/xxx.md</strong></li>
 <li>单个文件夹下全部文件以及子目录:<strong>skip_render: test/**</strong></li>
-<li>多个文件夹以及各种复杂情况：<br>  skip_render:<ul>
+<li>多个文件夹以及各种复杂情况：<br>  <em>skip_render</em>:<ul>
 <li><strong><code>test1/xxx.html</code></strong></li>
 <li><strong><code>test2/xxx</code></strong></li>
 </ul>
