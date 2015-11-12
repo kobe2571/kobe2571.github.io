@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Chen, Kobe's Personal Blog -- chearty.xyz]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chearty.xyz/"/>
-  <updated>2015-11-11T22:26:13.018Z</updated>
+  <updated>2015-11-12T22:19:02.724Z</updated>
   <id>http://chearty.xyz/</id>
   
   <author>
@@ -13,6 +13,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hexo常见问题 - 主目录下添加.md文件或者.html文件]]></title>
+    <link href="http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/"/>
+    <id>http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/</id>
+    <published>2015-11-12T21:58:37.000Z</published>
+    <updated>2015-11-12T22:19:02.724Z</updated>
+    <content type="html"><![CDATA[<p>正如大家所知道的，当基于<strong>Hexo</strong>建站时，很多时候我们需要在部署文件的时候使用原始文件，但是在 <strong><code>hexo g</code></strong> 的命令之后，所有的 <strong>.md</strong> 或者 <strong>html</strong> 文件都会被 <strong>hexo</strong> 所渲染。这也就是所谓的，在 <strong>source</strong>文件夹 下的所有 <strong>md</strong>文件 都会被 <strong>hexo</strong> 渲染成  <strong>html</strong>文件，导致 <strong>.md</strong>文件 不能好好的放在里面了，即使是添加了 <strong><code>layout: false</code></strong> 依然没有用。</p>
+<a id="more"></a>
+<p>不过现在有相应的解决办法：</p>
+<h4 id="1-_Hexo3-0_以下版本">1. Hexo3.0 以下版本</h4><p>利用主题的 <strong>source</strong>目录 ，也就是 <strong>themes/themes-name/source</strong> 。因为这个文件夹里面的所有文件都会被复制到网站的根目录中去，也就是说，如果在里面放上 <strong>.md</strong> 文件或者 <strong>html</strong> 文件，就可以正常的存在于网站的主目录了。</p>
+<p>同样的，对于一些需要在网站下添加 <strong>html</strong> 文件的需求也可以这样来达成。比如百度或者谷歌在验证站长权限的时候，通常都会要求在主目录下添加一个 <strong>html</strong> 文件。同样的，只要把这个文件放在 <strong>themes/themes-name/source</strong> 就可以了。</p>
+<h4 id="2-_Hexo3-0以上版本">2. Hexo3.0以上版本</h4><p>使用 <strong>_config.yml</strong> 下的 <strong>skip_render</strong> 参数</p>
+<p><strong>skip_render</strong> 使用了 <strong>minimatch</strong>，开始匹配的位置是基于你的 <strong>source_dir</strong> 的，一般来说，是你的 <strong>source</strong> 文件夹下。</p>
+<p>下面我分别列举几种常见的情况进行说明：</p>
+<p><em>请注意yml中的文件格式，输入单个数据请注意空格，输入数组请进行缩进！</em></p>
+<ul>
+<li>单个文件夹下全部文件：<strong>skip_render: test/*</strong></li>
+<li>单个文件夹下指定类型文件：<strong>skip_render: test/xxx.md</strong></li>
+<li>单个文件夹下全部文件以及子目录:<strong>skip_render: test/**</strong></li>
+<li>多个文件夹以及各种复杂情况：<br>  skip_render:<ul>
+<li><strong><code>test1/xxx.html</code></strong></li>
+<li><strong><code>test2/xxx</code></strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[Hexo常见问题 - 主目录下添加.md文件或者.html文件]]>
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://chearty.xyz/tags/Hexo/"/>
+    
+      <category term="博客技巧" scheme="http://chearty.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="常见问题" scheme="http://chearty.xyz/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[解决java.net.MalformedURLException_unknown protocol_c问题]]></title>

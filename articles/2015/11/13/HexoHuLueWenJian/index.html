@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tags | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
+  <title>Hexo常见问题 - 主目录下添加.md文件或者.html文件 | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="New life, New Starter !">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="http://chearty.xyz/tags/index.html">
+  <meta name="description" content="Hexo常见问题 - 主目录下添加.md文件或者.html文件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo常见问题 - 主目录下添加.md文件或者.html文件">
+<meta property="og:url" content="http://chearty.xyz/articles/2015/11/13/HexoHuLueWenJian/index.html">
 <meta property="og:site_name" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
-<meta property="og:description" content="New life, New Starter !">
-<meta property="og:updated_time" content="2015-11-08T09:35:43.024Z">
+<meta property="og:description" content="Hexo常见问题 - 主目录下添加.md文件或者.html文件">
+<meta property="og:updated_time" content="2015-11-12T22:19:02.724Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="New life, New Starter !">
+<meta name="twitter:title" content="Hexo常见问题 - 主目录下添加.md文件或者.html文件">
+<meta name="twitter:description" content="Hexo常见问题 - 主目录下添加.md文件或者.html文件">
   
     <link rel="alternative" href="/atom.xml" title="C-HE-A-RT-Y Personal Blog | Chen, Kobe" type="application/atom+xml">
   
@@ -133,16 +133,97 @@
 </aside>
 
       
-      <section id="main"><section class="layout-wrap">
-  <div class="layout-title">
-    <span>Tags</span>
-  </div>
-  <div class="layout-wrap-inner tag-cloud">
+      <section id="main"><article id="post-HexoHuLueWenJian" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-      <a href="/tags/Exception/" style="font-size: 14px;">Exception</a> <a href="/tags/Hexo/" style="font-size: 14px;">Hexo</a> <a href="/tags/Java/" style="font-size: 14px;">Java</a> <a href="/tags/博客技巧/" style="font-size: 14px;">博客技巧</a> <a href="/tags/常见问题/" style="font-size: 14px;">常见问题</a> <a href="/tags/心情/" style="font-size: 28px;">心情</a> <a href="/tags/闲杂/" style="font-size: 28px;">闲杂</a>
+      
+	
+		<img src="http://chearty.xyz/images/HexoHuLueWenJian.jpg" class="article-banner">
+	
+
+
+
     
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo常见问题 - 主目录下添加.md文件或者.html文件
+    </h1>
+  
+
+        <div class="article-meta">
+          
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/articles/2015/11/13/HexoHuLueWenJian/">
+      <time datetime="2015-11-12T21:58:37.000Z" itemprop="datePublished">2015-11-13</time>
+    </a>
   </div>
-</section></section>
+
+
+          
+  <div class="article-category">
+  	<i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/日常积累/">日常积累</a>
+  </div>
+
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+                
+        <p>正如大家所知道的，当基于<strong>Hexo</strong>建站时，很多时候我们需要在部署文件的时候使用原始文件，但是在 <strong><code>hexo g</code></strong> 的命令之后，所有的 <strong>.md</strong> 或者 <strong>html</strong> 文件都会被 <strong>hexo</strong> 所渲染。这也就是所谓的，在 <strong>source</strong>文件夹 下的所有 <strong>md</strong>文件 都会被 <strong>hexo</strong> 渲染成  <strong>html</strong>文件，导致 <strong>.md</strong>文件 不能好好的放在里面了，即使是添加了 <strong><code>layout: false</code></strong> 依然没有用。</p>
+<a id="more"></a>
+<p>不过现在有相应的解决办法：</p>
+<h4 id="1-_Hexo3-0_以下版本">1. Hexo3.0 以下版本</h4><p>利用主题的 <strong>source</strong>目录 ，也就是 <strong>themes/themes-name/source</strong> 。因为这个文件夹里面的所有文件都会被复制到网站的根目录中去，也就是说，如果在里面放上 <strong>.md</strong> 文件或者 <strong>html</strong> 文件，就可以正常的存在于网站的主目录了。</p>
+<p>同样的，对于一些需要在网站下添加 <strong>html</strong> 文件的需求也可以这样来达成。比如百度或者谷歌在验证站长权限的时候，通常都会要求在主目录下添加一个 <strong>html</strong> 文件。同样的，只要把这个文件放在 <strong>themes/themes-name/source</strong> 就可以了。</p>
+<h4 id="2-_Hexo3-0以上版本">2. Hexo3.0以上版本</h4><p>使用 <strong>_config.yml</strong> 下的 <strong>skip_render</strong> 参数</p>
+<p><strong>skip_render</strong> 使用了 <strong>minimatch</strong>，开始匹配的位置是基于你的 <strong>source_dir</strong> 的，一般来说，是你的 <strong>source</strong> 文件夹下。</p>
+<p>下面我分别列举几种常见的情况进行说明：</p>
+<p><em>请注意yml中的文件格式，输入单个数据请注意空格，输入数组请进行缩进！</em></p>
+<ul>
+<li>单个文件夹下全部文件：<strong>skip_render: test/*</strong></li>
+<li>单个文件夹下指定类型文件：<strong>skip_render: test/xxx.md</strong></li>
+<li>单个文件夹下全部文件以及子目录:<strong>skip_render: test/**</strong></li>
+<li>多个文件夹以及各种复杂情况：<br>  skip_render:<ul>
+<li><strong><code>test1/xxx.html</code></strong></li>
+<li><strong><code>test2/xxx</code></strong></li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/" data-id="cigwssr2a000tdgsc5aggvhtx" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客技巧/">博客技巧</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/常见问题/">常见问题</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/articles/2015/11/12/Java-Net-Malform-URLException/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">解决java.net.MalformedURLException_unknown protocol_c问题</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+</section>
       
         <aside id="sidebar">
   
