@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[说话的艺术 - 说话这件事]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/18/ShuoHuaZheJianShi/"/>
-    <id>http://chearty.xyz//articles/2015/11/18/ShuoHuaZheJianShi/</id>
+    <link href="http://chearty.xyz/articles/2015/11/18/ShuoHuaZheJianShi/"/>
+    <id>http://chearty.xyz/articles/2015/11/18/ShuoHuaZheJianShi/</id>
     <published>2015-11-17T22:54:21.000Z</published>
     <updated>2015-11-17T23:10:17.535Z</updated>
     <content type="html"><![CDATA[<p>图文无关，图片为 <a href="http://baike.baidu.com/view/168612.htm" target="_blank" rel="external"><strong>“乌拉特草原”</strong></a> ,本人家乡。图片中上部分土堆为 <a href="http://baike.baidu.com/view/168612.htm#10" target="_blank" rel="external"><strong>“赵长城”</strong></a></p>
@@ -49,8 +49,8 @@
   
   <entry>
     <title><![CDATA[Tonight，Good Night]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/16/TonightGoodNight/"/>
-    <id>http://chearty.xyz//articles/2015/11/16/TonightGoodNight/</id>
+    <link href="http://chearty.xyz/articles/2015/11/16/TonightGoodNight/"/>
+    <id>http://chearty.xyz/articles/2015/11/16/TonightGoodNight/</id>
     <published>2015-11-15T22:34:53.000Z</published>
     <updated>2015-11-15T22:35:43.532Z</updated>
     <content type="html"><![CDATA[<p>雨依旧在下，风依旧肆虐。这就是爱岛（爱尔兰共和国）的冬天，人们口中所谓 <strong>“Lovely”</strong> 的冬天，也是当地人一提到就会笑的 <strong>“Weather”</strong>。总是那么的阴晴不定，风雨飘摇。</p>
@@ -91,8 +91,8 @@
   
   <entry>
     <title><![CDATA[机器学习入门阶段程序员易犯的5个错误]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/14/MarchineLearningStarter/"/>
-    <id>http://chearty.xyz//articles/2015/11/14/MarchineLearningStarter/</id>
+    <link href="http://chearty.xyz/articles/2015/11/14/MarchineLearningStarter/"/>
+    <id>http://chearty.xyz/articles/2015/11/14/MarchineLearningStarter/</id>
     <published>2015-11-14T10:51:27.000Z</published>
     <updated>2015-11-14T11:27:30.245Z</updated>
     <content type="html"><![CDATA[<p>因为毕业论文接触到了现在所谓“高大上”的机器学习，也私下学了近大半年, <strong>Marchine Learning</strong>。从不懂到接触，从接触到逐渐了解，发现慢慢的喜欢钻研，也突然发现了自己钻研精神，呵呵，很多新的技术看似及其的牛逼，其实静下心来仔细琢磨琢磨，研究研究，发现站在巨人的肩膀上，自己也是有一些去攀登人类计算机科学这座高峰的能力的。</p>
@@ -135,8 +135,8 @@
   
   <entry>
     <title><![CDATA[Hexo常见问题 - 主目录下添加.md文件或者.html文件]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/"/>
-    <id>http://chearty.xyz//articles/2015/11/13/HexoHuLueWenJian/</id>
+    <link href="http://chearty.xyz/articles/2015/11/13/HexoHuLueWenJian/"/>
+    <id>http://chearty.xyz/articles/2015/11/13/HexoHuLueWenJian/</id>
     <published>2015-11-12T21:58:37.000Z</published>
     <updated>2015-11-12T22:41:06.331Z</updated>
     <content type="html"><![CDATA[<p>正如大家所知道的，当基于<strong>Hexo</strong>建站时，很多时候我们需要在部署文件的时候使用原始文件，但是在 <strong><code>hexo g</code></strong> 的命令之后，所有的 <strong>.md</strong> 或者 <strong>html</strong> 文件都会被 <strong>hexo</strong> 所渲染。这也就是所谓的，在 <strong>source</strong>文件夹 下的所有 <strong>md</strong>文件 都会被 <strong>hexo</strong> 渲染成  <strong>html</strong>文件，导致 <strong>.md</strong>文件 不能好好的放在里面了，即使是添加了 <strong><code>layout: false</code></strong> 依然没有用。</p>
@@ -176,8 +176,8 @@
   
   <entry>
     <title><![CDATA[解决java.net.MalformedURLException_unknown protocol_c问题]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/"/>
-    <id>http://chearty.xyz//articles/2015/11/12/Java-Net-Malform-URLException/</id>
+    <link href="http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/"/>
+    <id>http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/</id>
     <published>2015-11-11T22:07:10.000Z</published>
     <updated>2015-11-11T22:26:13.018Z</updated>
     <content type="html"><![CDATA[<p>最近在工作中遇到的问题，困扰了很长时间。</p>
@@ -214,8 +214,8 @@
   
   <entry>
     <title><![CDATA[向阳花开 -- 当时只道是寻常]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/12/XiangYangHuaKai/"/>
-    <id>http://chearty.xyz//articles/2015/11/12/XiangYangHuaKai/</id>
+    <link href="http://chearty.xyz/articles/2015/11/12/XiangYangHuaKai/"/>
+    <id>http://chearty.xyz/articles/2015/11/12/XiangYangHuaKai/</id>
     <published>2015-11-11T21:43:44.000Z</published>
     <updated>2015-11-11T22:01:48.491Z</updated>
     <content type="html"><![CDATA[<p>田野里向阳花依旧盛放，暖暖的熟悉的味道，是映入眼帘的耀目的金黄，向上，是细长的茎干擎举着硕大的葵盘，每一朵都这样，执着地向阳。</p>
@@ -241,8 +241,8 @@
   
   <entry>
     <title><![CDATA[人与人之间总需有些距离]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/"/>
-    <id>http://chearty.xyz//articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/</id>
+    <link href="http://chearty.xyz/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/"/>
+    <id>http://chearty.xyz/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/</id>
     <published>2015-11-11T00:12:23.000Z</published>
     <updated>2015-11-11T21:58:31.859Z</updated>
     <content type="html"><![CDATA[<p>生命的过往里，谁都只是一个人的行走而已。擦肩而过时，彼此是各自眼里的风景。华丽或灰暗各入眼各不同。与我，你也许是一朵芬芳的花朵，与你，我却只不过一缕淡风。转身，烟消云散。或者彼此欢喜，但总归要各入尘灰。你有你的草长莺飞，我有我的秋水长天。</p>
@@ -279,8 +279,8 @@
   
   <entry>
     <title><![CDATA[爱情的味道变了，是时间还是欲望]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/10/ShiJianBianLeWeiDao/"/>
-    <id>http://chearty.xyz//articles/2015/11/10/ShiJianBianLeWeiDao/</id>
+    <link href="http://chearty.xyz/articles/2015/11/10/ShiJianBianLeWeiDao/"/>
+    <id>http://chearty.xyz/articles/2015/11/10/ShiJianBianLeWeiDao/</id>
     <published>2015-11-09T22:09:02.000Z</published>
     <updated>2015-11-11T21:58:18.988Z</updated>
     <content type="html"><![CDATA[<p>什么才是适合你的人，难道他和你一样，你喜欢的东西他也喜欢，你不喜欢的东西他也不喜欢，这才是适合你的人。其实在这个世界上适合你的人，他根本就不存在。而是因为他的包容，他的忍让，他的爱，让他改变了原有的模样，而试着去迎合你，或者投其所爱。</p>
@@ -314,8 +314,8 @@
   
   <entry>
     <title><![CDATA[陌上花开，清水流沙]]></title>
-    <link href="http://chearty.xyz//articles/2015/11/09/MoShangHuaKai/"/>
-    <id>http://chearty.xyz//articles/2015/11/09/MoShangHuaKai/</id>
+    <link href="http://chearty.xyz/articles/2015/11/09/MoShangHuaKai/"/>
+    <id>http://chearty.xyz/articles/2015/11/09/MoShangHuaKai/</id>
     <published>2015-11-08T22:10:13.000Z</published>
     <updated>2015-11-11T21:58:42.002Z</updated>
     <content type="html"><![CDATA[<p>陌上花开，轮回的转角是否还能遇见你，种下的彼岸花你是否能低头观赏，那一束有花无叶的寞，有叶无花的寂。看起来的凄凉，到头来或许还是孤独的来着，这来自远方的思念。</p>
