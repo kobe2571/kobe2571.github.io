@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chearty.xyz/about/index.html</loc>
+    <lastmod>2016-05-04T14:56:34.816Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chearty.xyz/about/index%20-%20backup.html</loc>
+    <lastmod>2016-05-04T14:51:46.739Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://chearty.xyz/articles/2016/05/04/MarkdownPad2ZhuCeMa/</loc>
     <lastmod>2016-05-04T14:44:40.715Z</lastmod>
   </url>
@@ -69,11 +79,6 @@
   <url>
     <loc>http://chearty.xyz/articles/2015/11/10/ShiJianBianLeWeiDao/</loc>
     <lastmod>2015-11-11T21:58:18.988Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://chearty.xyz/about/index.html</loc>
-    <lastmod>2015-11-09T22:26:05.922Z</lastmod>
   </url>
   
   <url>
