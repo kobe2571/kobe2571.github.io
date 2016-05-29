@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Category: 碎碎念 | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
+  <title>CentOS 6.5 安装 Docker | C-HE-A-RT-Y Personal Blog | Chen, Kobe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="New life, New Starter !">
-<meta property="og:type" content="website">
-<meta property="og:title" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
-<meta property="og:url" content="http://chearty.xyz/categories/碎碎念/page/2/index.html">
+  <meta name="description" content="CentOS 6.5 安装 Docker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CentOS 6.5 安装 Docker">
+<meta property="og:url" content="http://chearty.xyz/articles/2016/05/29/CentosDockerInstall/index.html">
 <meta property="og:site_name" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
-<meta property="og:description" content="New life, New Starter !">
+<meta property="og:description" content="CentOS 6.5 安装 Docker">
+<meta property="og:updated_time" content="2016-05-29T07:55:59.620Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="C-HE-A-RT-Y Personal Blog | Chen, Kobe">
-<meta name="twitter:description" content="New life, New Starter !">
+<meta name="twitter:title" content="CentOS 6.5 安装 Docker">
+<meta name="twitter:description" content="CentOS 6.5 安装 Docker">
   
     <link rel="alternative" href="/atom.xml" title="C-HE-A-RT-Y Personal Blog | Chen, Kobe" type="application/atom+xml">
   
@@ -128,121 +129,114 @@
 </aside>
 
       
-      <section id="main">
-    <section class="archives-wrap">
-    <div class="archive-category-wrap">
-      <span class="archive-category">碎碎念</span>
-    </div>
-    <div class="archives">
+      <section id="main"><article id="post-CentosDockerInstall" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    
-    <div class="archive-article-thumbnail">
-      <a href="/articles/2015/11/18/ShuoHuaZheJianShi/" class="thumbnail">
-  
-    <span style="background-image:url(http://chearty.xyz/images/ShuoHuaZheJianShi.jpg)" alt="说话的艺术 - 说话这件事" class="thumbnail-image"></span>
-  
-</a>
-    </div>
-    
-    <header class="archive-article-header">
       
+	
+		<img src="http://chearty.xyz/images/CentosDockerInstall.jpg" class="article-banner">
+	
+
+
+
+    
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/articles/2015/11/18/ShuoHuaZheJianShi/">说话的艺术 - 说话这件事</a>
+    <h1 class="article-title" itemprop="name">
+      CentOS 6.5 安装 Docker
     </h1>
   
 
-      
-        
-  <div class="archive-article-date">
+        <div class="article-meta">
+          
+  <div class="article-date">
     <i class="fa fa-calendar"></i>
-    <a href="/articles/2015/11/18/ShuoHuaZheJianShi/">
-      <time datetime="2015-11-17T22:54:21.000Z" itemprop="datePublished">2015 Nov 18</time>
+    <a href="/articles/2016/05/29/CentosDockerInstall/">
+      <time datetime="2016-05-29T07:53:48.000Z" itemprop="datePublished">2016-05-29</time>
     </a>
   </div>
 
 
-      
-    </header>
+          
+  <div class="article-category">
+  	<i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/日常积累/">日常积累</a>
   </div>
-</article>
+
+        </div>
+      </header>
     
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    
-    <div class="archive-article-thumbnail">
-      <a href="/articles/2015/11/16/TonightGoodNight/" class="thumbnail">
-  
-    <span style="background-image:url(http://chearty.xyz/images/TonightGoodNight.jpg)" alt="Tonight，Good Night" class="thumbnail-image"></span>
-  
-</a>
+    <div class="article-entry" itemprop="articleBody">
+      
+                
+        <h4 id="-_开始安装docker：">- 开始安装docker：</h4><pre><code>[root<span class="property">@localhost</span> ~]<span class="comment"># uname -r</span>
+<span class="number">2.6</span>.<span class="number">32</span>-<span class="number">431.el</span>6.x86_64
+
+[root<span class="property">@localhost</span> ~]<span class="comment"># cat /etc/issue</span>
+CentOS release <span class="number">6.5</span> (Final)
+Kernel <span class="string">\r</span> <span class="literal">on</span> an <span class="string">\m</span>
+</code></pre><p><strong>注意</strong>:其他的源可能导致宿主机内核与docker的版本不一致，需要讲宿主机的内核升级至3.x。</p>
+<a id="more"></a>
+<h4 id="-_安装：">- 安装：</h4><pre><code>[root<span class="property">@localhost</span> ~]<span class="comment"># rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm</span>
+Retrieving <span class="attribute">http</span>:<span class="regexp">//</span>dl.fedoraproject.org/pub/epel/<span class="number">6</span>/x86_64/epel-release-<span class="number">6</span>-<span class="number">8.</span>noarch.rpm
+<span class="attribute">warning</span>: /var/tmp/rpm-tmp.<span class="attribute">JN76fI</span>: Header V3 RSA/SHA256 Signature, key ID <span class="number">0608</span><span class="attribute">b895</span>: NOKEY
+Preparing...                <span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment"># [100%]</span>
+   <span class="number">1</span>:epel-release           <span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment"># [100%]</span>
+
+
+[root<span class="property">@localhost</span> ~]<span class="comment"># rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6</span>
+
+[root<span class="property">@localhost</span> ~]<span class="comment"># yum -y install docker-io</span>
+</code></pre><h4 id="-_启动并设置开机自动启动:">- 启动并设置开机自动启动:</h4><pre><code><span class="string">[root@localhost ~]</span># service docker start
+Starting cgconfig service:                                 <span class="string">[确定]</span>
+Starting docker:                                              <span class="string">[确定]</span>
+<span class="string">[root@localhost ~]</span># chkconfig docker on
+</code></pre><h4 id="-_获取centos镜像:">- 获取centos镜像:</h4><pre><code>[root@localhost ~]<span class="preprocessor"># docker pull centos:latest</span>
+centos:latest: The image you are pulling has been verified
+<span class="number">511136</span>ea3c5a: Pull complete 
+<span class="number">5</span>b12ef8fd570: Pull complete 
+<span class="number">34943839435</span>d: Downloading [===&gt;              ] <span class="number">18.38</span> MB/<span class="number">232.5</span> MB <span class="number">1</span>h7m49s
+</code></pre><p>官方安装方式 <strong>docker pull imagename</strong> 从docker的索引中心下载，<strong><em>imagename</em></strong> 是镜像名称，例如: <strong>docker pull ubuntu</strong> 就是下载 base ubuntu 并且 tag 是 latest 的镜像。</p>
+<p>还可以搜索基于 Fedora 和 Ubuntu 操作系统的容器:</p>
+<pre><code>[root<span class="constant">@localhost</span> ~]<span class="preprocessor"># docker search ubuntu</span>
+[root<span class="constant">@localhost</span> ~]<span class="preprocessor"># docker search fedora</span>
+</code></pre><h4 id="-_查看docker镜像:">- 查看docker镜像:</h4><pre><code>[root@localhost ~]<span class="comment"># docker images centos</span>
+REPOSITORY          <span class="keyword">TAG</span>                 <span class="title">IMAGE</span> ID            CREATED                  VIRTUAL SIZE
+centos              latest              <span class="number">34943839435</span>d        Less than a second ago   <span class="number">224</span> MB
+</code></pre><h4 id="-_运行docker运行shell:">- 运行docker运行shell:</h4><pre><code>[root<span class="property">@localhost</span> ~]<span class="comment"># docker run -i -t centos /bin/bash</span>
+</code></pre><h4 id="-_停止容器:">- 停止容器:</h4><pre><code>[root@localhost ~]# docker <span class="operator"><span class="keyword">stop</span> &lt;<span class="keyword">CONTAINER</span> <span class="keyword">ID</span>&gt;</span>
+</code></pre>
+      
     </div>
-    
-    <header class="archive-article-header">
+    <footer class="article-footer">
+      <a data-url="http://chearty.xyz/articles/2016/05/29/CentosDockerInstall/" data-id="ciosamu9a0023o8sckdnmrjqt" class="article-share-link">Share</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/articles/2015/11/16/TonightGoodNight/">Tonight，Good Night</a>
-    </h1>
-  
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CentOS/">CentOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Docker/">Docker</a></li></ul>
 
-      
-        
-  <div class="archive-article-date">
-    <i class="fa fa-calendar"></i>
-    <a href="/articles/2015/11/16/TonightGoodNight/">
-      <time datetime="2015-11-15T22:34:53.000Z" itemprop="datePublished">2015 Nov 16</time>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/articles/2016/05/04/MarkdownPad2ZhuCeMa/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">MarkdownPad 2 Pro 注册码 更新表格支持方法</div>
     </a>
-  </div>
+  
+</nav>
 
 
-      
-    </header>
-  </div>
+  
 </article>
-    
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    
-    <div class="archive-article-thumbnail">
-      <a href="/articles/2015/11/12/XiangYangHuaKai/" class="thumbnail">
-  
-    <span style="background-image:url(http://chearty.xyz/images/XiangYangHuaKai.jpg)" alt="向阳花开 -- 当时只道是寻常" class="thumbnail-image"></span>
-  
-</a>
-    </div>
-    
-    <header class="archive-article-header">
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/articles/2015/11/12/XiangYangHuaKai/">向阳花开 -- 当时只道是寻常</a>
-    </h1>
-  
-
-      
-        
-  <div class="archive-article-date">
-    <i class="fa fa-calendar"></i>
-    <a href="/articles/2015/11/12/XiangYangHuaKai/">
-      <time datetime="2015-11-11T21:43:44.000Z" itemprop="datePublished">2015 Nov 12</time>
-    </a>
-  </div>
 
 
-      
-    </header>
-  </div>
-</article>
-    
-    </div></section>
-    
-      <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/categories/碎碎念/">&laquo; Prev</a><a class="page-number" href="/categories/碎碎念/">1</a><span class="page-number current">2</span><a class="page-number" href="/categories/碎碎念/page/3/">3</a><a class="extend next" rel="next" href="/categories/碎碎念/page/3/">Next &raquo;</a>
-      </nav>
-    </section>
+</section>
       
         <aside id="sidebar">
   

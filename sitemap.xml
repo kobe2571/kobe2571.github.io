@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chearty.xyz/articles/2016/05/29/CentosDockerInstall/</loc>
+    <lastmod>2016-05-29T07:55:59.620Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://chearty.xyz/about/index.html</loc>
     <lastmod>2016-05-04T14:56:34.816Z</lastmod>
   </url>
