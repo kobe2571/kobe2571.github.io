@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[C-HE-A-RT-Y Personal Blog | Chen, Kobe]]></title>
-  <subtitle><![CDATA[Chen, Kobe's Personal Blog -- chearty.xyz]]></subtitle>
+  <title><![CDATA[Chen, Kobe's Personal Blog | C-HE-A-RT-Y | GHERKIN | 个人博客，生活、技术分享]]></title>
+  <subtitle><![CDATA[Chen, Kobe's Personal Blog -- gherkin.cn]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://chearty.xyz/"/>
-  <updated>2016-12-03T14:23:11.983Z</updated>
-  <id>http://chearty.xyz/</id>
+  <link href="http://kobe2571.github.io/"/>
+  <updated>2018-04-21T13:53:41.403Z</updated>
+  <id>http://kobe2571.github.io/</id>
   
   <author>
     <name><![CDATA[Chen, Kobe]]></name>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[遭遇傻逼怎么办？]]></title>
-    <link href="http://chearty.xyz/articles/2016/12/03/ZaoYuShaBi/"/>
-    <id>http://chearty.xyz/articles/2016/12/03/ZaoYuShaBi/</id>
+    <link href="http://kobe2571.github.io/articles/2016/12/03/ZaoYuShaBi/"/>
+    <id>http://kobe2571.github.io/articles/2016/12/03/ZaoYuShaBi/</id>
     <published>2016-12-03T13:37:00.000Z</published>
-    <updated>2016-12-03T14:23:11.983Z</updated>
+    <updated>2018-04-21T13:53:41.403Z</updated>
     <content type="html"><![CDATA[<hr>
 <p>古人云“为人处世，需谨言慎行”想来我是没有很好的遵循古人的教诲，所以总有那么一些因为后悔自己说了某句话而不安或者说完某句话之后不断思索说的是否合理而纠结的时刻。</p>
 <a id="more"></a>
@@ -42,22 +42,22 @@
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="成长" scheme="http://chearty.xyz/tags/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kobe2571.github.io/tags/%E6%88%90%E9%95%BF/"/>
     
-      <category term="读书" scheme="http://chearty.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://kobe2571.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-      <category term="人生感悟" scheme="http://chearty.xyz/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/"/>
+      <category term="人生感悟" scheme="http://kobe2571.github.io/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[CentOS 6.5 安装 Docker]]></title>
-    <link href="http://chearty.xyz/articles/2016/05/29/CentosDockerInstall/"/>
-    <id>http://chearty.xyz/articles/2016/05/29/CentosDockerInstall/</id>
+    <link href="http://kobe2571.github.io/articles/2016/05/29/CentosDockerInstall/"/>
+    <id>http://kobe2571.github.io/articles/2016/05/29/CentosDockerInstall/</id>
     <published>2016-05-29T07:53:48.000Z</published>
-    <updated>2016-05-29T07:55:59.620Z</updated>
+    <updated>2018-04-21T13:51:21.058Z</updated>
     <content type="html"><![CDATA[<h4 id="-_开始安装docker：">- 开始安装docker：</h4><pre><code>[root<span class="property">@localhost</span> ~]<span class="comment"># uname -r</span>
 <span class="number">2.6</span>.<span class="number">32</span>-<span class="number">431.el</span>6.x86_64
 
@@ -100,20 +100,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="CentOS" scheme="http://chearty.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://kobe2571.github.io/tags/CentOS/"/>
     
-      <category term="Docker" scheme="http://chearty.xyz/tags/Docker/"/>
+      <category term="Docker" scheme="http://kobe2571.github.io/tags/Docker/"/>
     
-      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+      <category term="日常积累" scheme="http://kobe2571.github.io/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[MarkdownPad 2 Pro 注册码 更新表格支持方法]]></title>
-    <link href="http://chearty.xyz/articles/2016/05/04/MarkdownPad2ZhuCeMa/"/>
-    <id>http://chearty.xyz/articles/2016/05/04/MarkdownPad2ZhuCeMa/</id>
+    <link href="http://kobe2571.github.io/articles/2016/05/04/MarkdownPad2ZhuCeMa/"/>
+    <id>http://kobe2571.github.io/articles/2016/05/04/MarkdownPad2ZhuCeMa/</id>
     <published>2016-05-04T14:36:24.000Z</published>
-    <updated>2016-05-04T14:44:40.715Z</updated>
+    <updated>2018-04-21T13:52:12.424Z</updated>
     <content type="html"><![CDATA[<p><strong>MarkdownPad</strong> 是 Windows 平台上一个功能完善的 Markdown 编辑器。</p>
 <h2 id="专为_MARKDOWN_打造">专为 MARKDOWN 打造</h2><p>提供了语法高亮和方便的快捷键功能，给您最好的 Markdown 编写体验。</p>
 <a id="more"></a>
@@ -125,12 +125,12 @@ centos              latest              <span class="number">34943839435</span>d
 <p>请将＃号替换为@符号。</p>
 <p>授权秘钥：</p>
 <pre><code>GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5<span class="regexp">/sQytXJUQl/</span>QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb<span class="regexp">/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/</span>eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==
-</code></pre><p><img src="http://chearty.xyz/images/MarkdownPad2/markdownpad_1.png" alt=""></p>
+</code></pre><p><img src="/images/MarkdownPad2/markdownpad_1.png" alt=""></p>
 <hr>
 <h3 id="表格支持">表格支持</h3><p>Markdown Pad是支持表格的。</p>
 <p>但是表格并不是Markdown默认支持的语法，所以需要在软件中进行稍许设置即可支持表格。设置方法如下：</p>
 <p>工具 》 选项 》 Markdown 》Markdown处理器 改为 “Markdown(扩展)”即可。效果图如下：</p>
-<p><img src="http://chearty.xyz/images/MarkdownPad2/markdownpad_2.png" alt=""></p>
+<p><img src="/images/MarkdownPad2/markdownpad_2.png" alt=""></p>
 <hr>
 <p><strong>@Chen,Kobe</strong></p>
 ]]></content>
@@ -139,43 +139,43 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="Hexo" scheme="http://chearty.xyz/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://kobe2571.github.io/tags/Hexo/"/>
     
-      <category term="博客技巧" scheme="http://chearty.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+      <category term="博客技巧" scheme="http://kobe2571.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="常见问题" scheme="http://chearty.xyz/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+      <category term="常见问题" scheme="http://kobe2571.github.io/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
-      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+      <category term="日常积累" scheme="http://kobe2571.github.io/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[风中的爱尔兰 _ Ireland]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/30/BeautifulIrelandMemory/"/>
-    <id>http://chearty.xyz/articles/2015/11/30/BeautifulIrelandMemory/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/30/BeautifulIrelandMemory/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/30/BeautifulIrelandMemory/</id>
     <published>2015-11-29T23:27:20.000Z</published>
-    <updated>2015-11-30T00:05:07.770Z</updated>
+    <updated>2018-04-21T13:49:31.093Z</updated>
     <content type="html"><![CDATA[<p>三个月就这样结束了。。。</p>
 <p>明天中午就要离开这个国家，飞向祖国的怀抱。</p>
 <p>本是天天期盼的事情，到了跟前，却又有点难受。很不舍…毕竟三个月，朝夕相处，难免也有感情。</p>
 <a id="more"></a>
-<h2 id=""><img src="http://chearty.xyz/images/Ireland_Memory/dublin.jpg" alt=""></h2><p>想起刚来的时候。迪拜转机，都柏林机场海关，戈尔韦城，莫赫，NUIG，Westport…历历在目的情景。。。</p>
+<h2 id=""><img src="/images/Ireland_Memory/dublin.jpg" alt=""></h2><p>想起刚来的时候。迪拜转机，都柏林机场海关，戈尔韦城，莫赫，NUIG，Westport…历历在目的情景。。。</p>
 <p>难以表达..</p>
-<h2 id="-1"><img src="http://chearty.xyz/images/Ireland_Memory/westport.jpg" alt=""></h2><p>比起祖国的冬天。这里的冬天显得有些调皮，也正印证了典型的温带海洋性气候。这里的冬天没有雪，缺失狂风、暴雨。。。有时天晴的万里无云，有时又漫天乌云密布，狂风肆虐，让人害怕。。。</p>
+<h2 id="-1"><img src="/images/Ireland_Memory/westport.jpg" alt=""></h2><p>比起祖国的冬天。这里的冬天显得有些调皮，也正印证了典型的温带海洋性气候。这里的冬天没有雪，缺失狂风、暴雨。。。有时天晴的万里无云，有时又漫天乌云密布，狂风肆虐，让人害怕。。。</p>
 <p>但，临走了，却又渐渐地爱上了这里。喜欢这里的一切。</p>
 <p>喜欢这儿人们的纯朴，善良。喜欢这里的万里无云。喜欢这里清新的空气。也喜欢大西洋的汹涌澎湃。更喜欢克拉达浪漫的传说。</p>
-<h2 id="-2"><img src="http://chearty.xyz/images/Ireland_Memory/claddagh.jpg" alt=""></h2><p>不知道该怎么表达，一直都喜欢三叶草的我，真正的来到了三叶草的发源地。总想浪漫的我，也真真实实的来到了世界上最浪漫的地方。命中注定，我要到这里来，感受这里的一切。</p>
+<h2 id="-2"><img src="/images/Ireland_Memory/claddagh.jpg" alt=""></h2><p>不知道该怎么表达，一直都喜欢三叶草的我，真正的来到了三叶草的发源地。总想浪漫的我，也真真实实的来到了世界上最浪漫的地方。命中注定，我要到这里来，感受这里的一切。</p>
 <p>我喜欢这里，喜欢这个不大，却又什么都不缺的地方，喜欢这个让人留恋，不舍的国家。</p>
 <p>突然不想走，静静的夜。白天还狂风肆虐，暴雨连连的城市，夜晚，大西洋的海面却平静的像什么都没有发生。</p>
 <p>跟朋友、同事告了别，洗过澡，一罐Guinness，该睡觉了，这里的最后一夜。醒了就要飞向祖国。</p>
-<h2 id="-3"><img src="http://chearty.xyz/images/Ireland_Memory/galway.jpg" alt=""></h2><p>这里的一切就这样深深地印到了我的生命中。。</p>
+<h2 id="-3"><img src="/images/Ireland_Memory/galway.jpg" alt=""></h2><p>这里的一切就这样深深地印到了我的生命中。。</p>
 <p>就像同事说的那样，这里，是我事业的起点，人生中很重要的地方！</p>
 <p>想想很对，确实，事业的起点，在这里，在这个可爱的国家，在这个可爱的城市。</p>
-<h2 id="-4"><img src="http://chearty.xyz/images/Ireland_Memory/salthill.jpg" alt=""></h2><p>相信，不久地将来，我还会回来的！</p>
+<h2 id="-4"><img src="/images/Ireland_Memory/salthill.jpg" alt=""></h2><p>相信，不久地将来，我还会回来的！</p>
 <p>期待下一次的重逢！</p>
 <p>晚安！戈尔韦！</p>
 <p><strong>Good Night！Ireland！</strong></p>
-<h2 id="-5"><img src="http://chearty.xyz/images/Ireland_Memory/parkmore.jpg" alt=""></h2><p><strong>@Chen,Kobe</strong></p>
+<h2 id="-5"><img src="/images/Ireland_Memory/parkmore.jpg" alt=""></h2><p><strong>@Chen,Kobe</strong></p>
 <p>写于 <strong>Galway, Ireland</strong></p>
 <p>2015年11月30日 晚 </p>
 ]]></content>
@@ -184,20 +184,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="成长" scheme="http://chearty.xyz/tags/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kobe2571.github.io/tags/%E6%88%90%E9%95%BF/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[放空自己，素简前行]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/26/FangKongZiJi/"/>
-    <id>http://chearty.xyz/articles/2015/11/26/FangKongZiJi/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/26/FangKongZiJi/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/26/FangKongZiJi/</id>
     <published>2015-11-25T21:53:20.000Z</published>
-    <updated>2015-11-25T21:55:48.631Z</updated>
+    <updated>2018-04-21T13:51:29.811Z</updated>
     <content type="html"><![CDATA[<hr>
 <p>人终其一生都是在不断的前行，或爬或行，或走或坐，甚至躺着也不曾放弃。——题记</p>
 <hr>
@@ -225,20 +225,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[人生短暂，不留遗憾]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/24/RenShengDuanZan/"/>
-    <id>http://chearty.xyz/articles/2015/11/24/RenShengDuanZan/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/24/RenShengDuanZan/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/24/RenShengDuanZan/</id>
     <published>2015-11-23T20:54:00.000Z</published>
-    <updated>2015-11-23T20:56:28.012Z</updated>
+    <updated>2018-04-21T13:52:34.030Z</updated>
     <content type="html"><![CDATA[<hr>
 <p>《摩托车修理店未来工作哲学》这本书是看到老罗推荐的，买了有段时间了，一直没腾出来时间看，前两天总算看完了。</p>
 <p>作者的经历很有意思，原本是个博士，毕业后在华盛顿一家智库工作，干了半年后辞职开了一家摩托车修理店。这本书有一部分介绍了他对于目前高学历教育下年轻人大学毕业后涌入供过于求的格子间白领工作市场现象的看法。</p>
@@ -275,22 +275,22 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="成长" scheme="http://chearty.xyz/tags/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kobe2571.github.io/tags/%E6%88%90%E9%95%BF/"/>
     
-      <category term="读书" scheme="http://chearty.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://kobe2571.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-      <category term="人生感悟" scheme="http://chearty.xyz/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/"/>
+      <category term="人生感悟" scheme="http://kobe2571.github.io/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[岁月静好，静好岁月]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/21/SuiYueJingHao/"/>
-    <id>http://chearty.xyz/articles/2015/11/21/SuiYueJingHao/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/21/SuiYueJingHao/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/21/SuiYueJingHao/</id>
     <published>2015-11-20T23:36:25.000Z</published>
-    <updated>2015-11-20T23:46:45.654Z</updated>
+    <updated>2018-04-21T13:53:12.550Z</updated>
     <content type="html"><![CDATA[<p>不管现世是否安稳，心，该有这么一块净地，世间繁华，人间名利，皆为浮云。持一颗淡素清心，默默辛勤，耕耘出一片静好岁月，岁月亦静好！</p>
 <a id="more"></a>
 <p>静，心之本真。人生事事，皆为欲所使，为欲所生，一切事情的发生，皆是欲望之果，食得甘甜也好，偿得涩苦也罢，心，总是要回归于平静，静心自审，所做一切，得到了什么，又失去了多少。未必人人都事过境迁之后，才会去深思这个问题。万事万物都有其规律，昼去夜来，夜深便人静，人静则心静，心静则意乱。</p>
@@ -312,20 +312,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[说话的艺术 - 说话这件事]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/18/ShuoHuaZheJianShi/"/>
-    <id>http://chearty.xyz/articles/2015/11/18/ShuoHuaZheJianShi/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/18/ShuoHuaZheJianShi/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/18/ShuoHuaZheJianShi/</id>
     <published>2015-11-17T22:54:21.000Z</published>
-    <updated>2015-11-17T23:10:17.535Z</updated>
+    <updated>2018-04-21T13:53:03.463Z</updated>
     <content type="html"><![CDATA[<p>图文无关，图片为 <a href="http://baike.baidu.com/view/168612.htm" target="_blank" rel="external"><strong>“乌拉特草原”</strong></a> ,本人家乡。图片中上部分土堆为 <a href="http://baike.baidu.com/view/168612.htm#10" target="_blank" rel="external"><strong>“赵长城”</strong></a></p>
 <a id="more"></a>
 <hr>
@@ -345,20 +345,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="成长" scheme="http://chearty.xyz/tags/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kobe2571.github.io/tags/%E6%88%90%E9%95%BF/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Tonight，Good Night]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/16/TonightGoodNight/"/>
-    <id>http://chearty.xyz/articles/2015/11/16/TonightGoodNight/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/16/TonightGoodNight/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/16/TonightGoodNight/</id>
     <published>2015-11-15T22:34:53.000Z</published>
-    <updated>2015-11-15T22:35:43.532Z</updated>
+    <updated>2018-04-21T13:53:23.921Z</updated>
     <content type="html"><![CDATA[<p>雨依旧在下，风依旧肆虐。这就是爱岛（爱尔兰共和国）的冬天，人们口中所谓 <strong>“Lovely”</strong> 的冬天，也是当地人一提到就会笑的 <strong>“Weather”</strong>。总是那么的阴晴不定，风雨飘摇。</p>
 <p>这样的天气已经持续有近十天了。。。</p>
 <a id="more"></a>
@@ -385,22 +385,22 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="成长" scheme="http://chearty.xyz/tags/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://kobe2571.github.io/tags/%E6%88%90%E9%95%BF/"/>
     
-      <category term="珍惜" scheme="http://chearty.xyz/tags/%E7%8F%8D%E6%83%9C/"/>
+      <category term="珍惜" scheme="http://kobe2571.github.io/tags/%E7%8F%8D%E6%83%9C/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[机器学习入门阶段程序员易犯的5个错误]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/14/MarchineLearningStarter/"/>
-    <id>http://chearty.xyz/articles/2015/11/14/MarchineLearningStarter/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/14/MarchineLearningStarter/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/14/MarchineLearningStarter/</id>
     <published>2015-11-14T10:51:27.000Z</published>
-    <updated>2015-11-14T11:27:30.245Z</updated>
+    <updated>2018-04-21T13:52:03.290Z</updated>
     <content type="html"><![CDATA[<p>因为毕业论文接触到了现在所谓“高大上”的机器学习，也私下学了近大半年, <strong>Marchine Learning</strong>。从不懂到接触，从接触到逐渐了解，发现慢慢的喜欢钻研，也突然发现了自己钻研精神，呵呵，很多新的技术看似及其的牛逼，其实静下心来仔细琢磨琢磨，研究研究，发现站在巨人的肩膀上，自己也是有一些去攀登人类计算机科学这座高峰的能力的。</p>
 <a id="more"></a>
 <p>写文章还是改不了扯淡的毛病，总想写一些自己内心的东西，却总也写不出来，写出来的也都是扯淡的东西。唉，这也就是当初为什么一直都是母语老师的重点培养对象，哈哈。在此，也向当年所有的语文老师说一声“老师，您辛苦了！”</p>
@@ -431,20 +431,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="Marchine Learning" scheme="http://chearty.xyz/tags/Marchine-Learning/"/>
+      <category term="Marchine Learning" scheme="http://kobe2571.github.io/tags/Marchine-Learning/"/>
     
-      <category term="机器学习" scheme="http://chearty.xyz/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://kobe2571.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+      <category term="日常积累" scheme="http://kobe2571.github.io/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hexo常见问题 - 主目录下添加.md文件或者.html文件]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/13/HexoHuLueWenJian/"/>
-    <id>http://chearty.xyz/articles/2015/11/13/HexoHuLueWenJian/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/13/HexoHuLueWenJian/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/13/HexoHuLueWenJian/</id>
     <published>2015-11-12T21:58:37.000Z</published>
-    <updated>2015-11-12T22:41:06.331Z</updated>
+    <updated>2018-04-21T13:51:39.205Z</updated>
     <content type="html"><![CDATA[<p>正如大家所知道的，当基于<strong>Hexo</strong>建站时，很多时候我们需要在部署文件的时候使用原始文件，但是在 <strong><code>hexo g</code></strong> 的命令之后，所有的 <strong>.md</strong> 或者 <strong>html</strong> 文件都会被 <strong>hexo</strong> 所渲染。这也就是所谓的，在 <strong>source</strong>文件夹 下的所有 <strong>md</strong>文件 都会被 <strong>hexo</strong> 渲染成  <strong>html</strong>文件，导致 <strong>.md</strong>文件 不能好好的放在里面了，即使是添加了 <strong><code>layout: false</code></strong> 依然没有用。</p>
 <a id="more"></a>
 <p>不过现在有相应的解决办法：</p>
@@ -470,22 +470,22 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="Hexo" scheme="http://chearty.xyz/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://kobe2571.github.io/tags/Hexo/"/>
     
-      <category term="博客技巧" scheme="http://chearty.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+      <category term="博客技巧" scheme="http://kobe2571.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="常见问题" scheme="http://chearty.xyz/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+      <category term="常见问题" scheme="http://kobe2571.github.io/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
-      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+      <category term="日常积累" scheme="http://kobe2571.github.io/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[解决java.net.MalformedURLException_unknown protocol_c问题]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/"/>
-    <id>http://chearty.xyz/articles/2015/11/12/Java-Net-Malform-URLException/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/12/Java-Net-Malform-URLException/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/12/Java-Net-Malform-URLException/</id>
     <published>2015-11-11T22:07:10.000Z</published>
-    <updated>2015-11-11T22:26:13.018Z</updated>
+    <updated>2018-04-21T13:51:52.331Z</updated>
     <content type="html"><![CDATA[<p>最近在工作中遇到的问题，困扰了很长时间。</p>
 <a id="more"></a>
 <hr>
@@ -510,20 +510,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="Exception" scheme="http://chearty.xyz/tags/Exception/"/>
+      <category term="Exception" scheme="http://kobe2571.github.io/tags/Exception/"/>
     
-      <category term="Java" scheme="http://chearty.xyz/tags/Java/"/>
+      <category term="Java" scheme="http://kobe2571.github.io/tags/Java/"/>
     
-      <category term="日常积累" scheme="http://chearty.xyz/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+      <category term="日常积累" scheme="http://kobe2571.github.io/categories/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[向阳花开 -- 当时只道是寻常]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/12/XiangYangHuaKai/"/>
-    <id>http://chearty.xyz/articles/2015/11/12/XiangYangHuaKai/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/12/XiangYangHuaKai/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/12/XiangYangHuaKai/</id>
     <published>2015-11-11T21:43:44.000Z</published>
-    <updated>2015-11-11T22:01:48.491Z</updated>
+    <updated>2018-04-21T13:53:32.313Z</updated>
     <content type="html"><![CDATA[<p>田野里向阳花依旧盛放，暖暖的熟悉的味道，是映入眼帘的耀目的金黄，向上，是细长的茎干擎举着硕大的葵盘，每一朵都这样，执着地向阳。</p>
 <a id="more"></a>
 <p>拐弯处不经意地回头，缄默是谦卑者无声息的开头，弹指在一挥而就间铸就的辉煌，是根系在厚土下冷清清的埋葬。养料是一点点汲取，如果感恩，然后十年如一日地刑满释放。</p>
@@ -537,20 +537,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[人与人之间总需有些距离]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/"/>
-    <id>http://chearty.xyz/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/11/RenYuRenZhiJianZongYouJuLi/</id>
     <published>2015-11-11T00:12:23.000Z</published>
-    <updated>2015-11-11T21:58:31.859Z</updated>
+    <updated>2018-04-21T13:52:44.245Z</updated>
     <content type="html"><![CDATA[<p>生命的过往里，谁都只是一个人的行走而已。擦肩而过时，彼此是各自眼里的风景。华丽或灰暗各入眼各不同。与我，你也许是一朵芬芳的花朵，与你，我却只不过一缕淡风。转身，烟消云散。或者彼此欢喜，但总归要各入尘灰。你有你的草长莺飞，我有我的秋水长天。</p>
 <a id="more"></a>
 <p>不如，浅笑。而去。只有好，慢慢记着，隔着或远或近的距离。渐渐成了生命里一段温润的浅香，不经意间依然会淡淡想起。多好！</p>
@@ -575,20 +575,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[爱情的味道变了，是时间还是欲望]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/10/ShiJianBianLeWeiDao/"/>
-    <id>http://chearty.xyz/articles/2015/11/10/ShiJianBianLeWeiDao/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/10/ShiJianBianLeWeiDao/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/10/ShiJianBianLeWeiDao/</id>
     <published>2015-11-09T22:09:02.000Z</published>
-    <updated>2015-11-11T21:58:18.988Z</updated>
+    <updated>2018-04-21T13:52:54.544Z</updated>
     <content type="html"><![CDATA[<p>什么才是适合你的人，难道他和你一样，你喜欢的东西他也喜欢，你不喜欢的东西他也不喜欢，这才是适合你的人。其实在这个世界上适合你的人，他根本就不存在。而是因为他的包容，他的忍让，他的爱，让他改变了原有的模样，而试着去迎合你，或者投其所爱。</p>
 <a id="more"></a>
 <p>爱，能让一个有野性的人被驯服，能让一颗胆小的心变坚强，能让一个粗心的人变得细心。爱的姿态，爱的形式有千万种，不同时期的爱，不同年龄阶段的爱，各不相同。</p>
@@ -610,20 +610,20 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[陌上花开，清水流沙]]></title>
-    <link href="http://chearty.xyz/articles/2015/11/09/MoShangHuaKai/"/>
-    <id>http://chearty.xyz/articles/2015/11/09/MoShangHuaKai/</id>
+    <link href="http://kobe2571.github.io/articles/2015/11/09/MoShangHuaKai/"/>
+    <id>http://kobe2571.github.io/articles/2015/11/09/MoShangHuaKai/</id>
     <published>2015-11-08T22:10:13.000Z</published>
-    <updated>2015-11-11T21:58:42.002Z</updated>
+    <updated>2018-04-21T13:52:24.216Z</updated>
     <content type="html"><![CDATA[<p>陌上花开，轮回的转角是否还能遇见你，种下的彼岸花你是否能低头观赏，那一束有花无叶的寞，有叶无花的寂。看起来的凄凉，到头来或许还是孤独的来着，这来自远方的思念。</p>
 <a id="more"></a>
 <p>清水流沙，摆渡的船上是否还能为你渡一段红尘，撑起的船浆是否能为你旋律摆动，那一上一下的浮，那一左一右的摇。看起来的规律，引动那一曲琵琶语，你还会附和，这情动深处的悟。</p>
@@ -641,11 +641,11 @@ centos              latest              <span class="number">34943839435</span>d
     
     </summary>
     
-      <category term="心情" scheme="http://chearty.xyz/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://kobe2571.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="闲杂" scheme="http://chearty.xyz/tags/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://kobe2571.github.io/tags/%E9%97%B2%E6%9D%82/"/>
     
-      <category term="碎碎念" scheme="http://chearty.xyz/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://kobe2571.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   

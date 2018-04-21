@@ -361,12 +361,14 @@ a:visited {
   width: 40px;
   height: 40px;
   margin-right: 5px;
+  margin-left: 40px;
 }
-.header-inner #logo .site-title {
-  font-size: 16px;
+.site-title {
+  font-size: 20px;
   display: inline-block;
   vertical-align: top;
-  font-weight: 600;
+  font-weight: 700;
+  margin-left: 15px;
 }
 #header-title {
   text-align: center;
